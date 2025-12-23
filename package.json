@@ -1,0 +1,25 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is react project",
+  "homepage": "https://github.com/sai2003kiran/Learning-React#readme",
+  "bugs": {
+    "url": "https://github.com/sai2003kiran/Learning-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai2003kiran/Learning-React.git"
+  },
+  "license": "ISC",
+  "author": "saikiran",
+  "type": "commonjs",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel": "^2.16.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
