@@ -5,6 +5,7 @@
     align-items: center;
     padding: 10px 20px;
     box-shadow: 2px 2px 5px #dac9c9ea;
+    width: 100%;
 }
 .nav-items{
     display: flex;
@@ -20,7 +21,7 @@ ul{
 }
 .search{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     margin-top: 20px;
     width: 100%;
 
@@ -35,6 +36,18 @@ ul{
     border-radius: 5px;
     background-color: white;
 }
+
+.filter{
+    margin-right: 10px;
+    height: 30px;
+    padding: 5px 10px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+}
+
 .restaurant-list{
     display: flex;
     flex-wrap: wrap;
